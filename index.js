@@ -89,6 +89,9 @@ function main(id) {
         setTimeout(clearGame, 500)
         updateScore()
     }
+    if (checkTie()) {
+        setTimeout(clearGame, 500)
+    }
 }
 
 function clearGame() {
@@ -99,6 +102,21 @@ function clearGame() {
         temp[i].textContent = ''
     }
     player1Move = true
+}
+
+function checkTie() {
+    let row0 = [btn00, btn01, btn02]
+    let row1 = [btn10, btn11, btn12]
+    let row2 = [btn20, btn21, btn22]
+    let board = [row0, row1, row2]
+    for (var i = 0; i < board.length; i++) {
+        for (var j = 0; j < board[i].length; j++) {
+            if (!board[i][j].clicked) {
+                return false
+            }
+        }
+    } 
+    return true
 }
 
 function checkGameEnd() {
