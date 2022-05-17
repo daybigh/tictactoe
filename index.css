@@ -1,0 +1,127 @@
+
+body {
+    background-color: black;
+}
+
+
+#row0 {
+    margin-top: 100px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+#row1 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+#row2 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#box00 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#box01 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box02 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box10 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box11 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box12 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box20 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box21 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+#box22 {
+    display: flex;
+    border: 3px solid white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;}
+
+button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    /* -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none; */
+}
+
+#clear-container {
+    display: flex;
+    justify-content: center;
+}
+
+#clear {
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

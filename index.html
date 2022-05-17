@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tictactoe</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="board">
+                <div id="row0">
+                    <div id="box00">
+                        <button onclick="main(this.id)" id="btn00"></button>
+                    </div>
+                    <div id="box01">
+                        <button onclick="main(this.id)" id="btn01"></button>
+                    </div>
+                    <div id="box02">
+                        <button onclick="main(this.id)" id="btn02"></button>
+                    </div>
+                </div>
+                <div id="row1">
+                    <div id="box10">
+                        <button onclick="main(this.id)" id="btn10"></button>
+                    </div>
+                    <div id="box11">
+                        <button onclick="main(this.id)" id="btn11"></button>
+                    </div>
+                    <div id="box12">
+                        <button onclick="main(this.id)" id="btn12"></button>
+                    </div>
+                </div>
+                <div id="row2">
+                    <div id="box20">
+                        <button onclick="main(this.id)" id="btn20"></button>
+                    </div>
+                    <div id="box21">
+                        <button onclick="main(this.id)" id="btn21"></button>
+                    </div>
+                    <div id="box22">
+                        <button onclick="main(this.id)" id="btn22"></button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1  id="p1-score">Player 1: 0</h1>
+            </div>
+            <div>
+                <h1 id="p2-score">Player 2: 0</h1>
+            </div>
+        </div>
+        <!-- <div id="clear-container">
+        <button id="clear" onclick="clearGame()">CLEAR GAME</button>
+        </div> -->
+        <script src="index.js"></script>
+    </body>
+</html>
